@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Séries</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Séries para maratonar</h1>
+
+            <nav>
+                <ul class="menu">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#series">Séries</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção destaque -->
+    <section id="inicio" class="secao destaque">
+        <div class="container destaque-conteudo">
+            <div class="destaque-texto">
+                <h2>Descubra novas séries para você e sua familía maratonar:</h2>
+                <p>Bem-vindo ao seu guia de séries em 2026. Nosso objetivo é conectar você às melhores produções de todos os gêneros do terror ao romance.</p>
+
+                <!-- Filtros visuais de gêneros (não precisam funcionar) -->
+                <div class="filtros">
+                    <!-- TODO: trocar ou adicionar gêneros -->
+                    <button class="filtro">Drama</button>
+                    <button class="filtro">Terror</button>
+                    <button class="filtro">Romance</button>
+                    <button class="filtro">Ficção Policial</button>
+                    <button class="filtro">Ação</button>
+                </div>
+            </div>
+
+            <div class="destaque-imagem">
+                <!-- TODO: trocar por uma imagem relacionada a séries -->
+                <img src="/imagens/netflix.jpg" alt="Imagem de séries">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção catálogo de séries -->
+    <section id="series" class="secao secao-cinza">
+        <div class="container">
+            <h2>Séries em destaque</h2>
+
+            <div class="grid-series">
+                <!-- Card 1 -->
+                <div class="card-serie">
+                    <!-- TODO: trocar os dados da série -->
+                    <img src="/imagens/teen.jpg" alt="Teen Wolf">
+                    <h3>Teen Wolf</h3>
+                    <p class="genero">Gênero: Drama e Ação</p>
+                    <p class="descricao">
+                        Mordido por um animal, um adolescente vira um lobisomem com habilidades sobrenaturais que o tornam um atleta famoso, e complicam a vida dele.</p>
+                </div>
+
+                <!-- Card 2 675 x 1200 -->
+                <div class="card-serie">
+                    <img src="/imagens/dead.jpg" alt="Nome da série">
+                    <h3>The Walking Dead</h3>
+                    <p class="genero">Gênero: Terror e Drama</p>
+                    <p class="descricao">
+                        Zumbis dominam o mundo dos vivos, e os sobreviventes unem forças para manter viva a raça humana.
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card-serie">
+                    <img src="/imagens/Brigerton.jpg" alt="Nome da série">
+                    <h3>Bridgerton</h3>
+                    <p class="genero">Gênero: Drama e Romance</p>
+                    <p class="descricao">
+                     Em um novo capítulo da alta sociedade britânica, o solteirão convicto Benedict Bridgerton finalmente encontra o amor: uma criada encantadora em um baile de máscaras.
+                    </p>
+                </div>
+
+                <div class="card-serie">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGuv_1reEgTiGcE-wOawB4Klug_sWs-mO1yQ&s"alt="Peaky Blinders">
+                    <h3>Peaky Blinders</h3>
+                    <p class="genero">Gênero: Ficção Policial e Drama</p>
+                    <p class="descrição">Uma notória gangue da Inglaterra de 1919 é liderada pelo cruel Tommy Shelby, um criminoso disposto a subir na vida a qualquer preço.</p>
+                </div>
+
+                <div class="card-serie">
+                    <img src="/imagens/grimm.jpg" alt="Grimm-Contos de Terror">
+                    <h3>Grimm-Contos de Terror</h3>
+                    <p class="genero">Gênero: Terror e Drama</p>
+                    <p class="descrição">O detetive Nick Burkhardt descobre que é o último dos Grimm, seres que protegem o mundo humano dos monstros saídos dos contos de fadas.</p>
+                </div>
+
+                <div class="card-serie">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUbG9lymPlpu_7xzm5EbtzyW_ki7sLVo7zyg&s" alt="S.W.A.T">
+                 <h3>S.W.A.T-Força de Intervenção</h3>
+                 <p class="genero">Gênero: Ação</p>
+                 <p class="descrição">Em Los Angeles, sua cidade natal, um sargento é incumbido de liderar uma equipe de policiais de elite e aliviar as tensões da comunidade.</p>
+                </div>
+
+                <div class="card-serie">
+                    <img src="/imagens/grey's.jpg" alt="Grey's Anatomy">
+                    <h3>Grey's Anatomy</h3>
+                    <p class="genero">Gênero: Drama Médico</p>
+                    <p class="descrição">Durante sua residência, Meredith Grey vive paixões profissionais e pessoais com seus colegas médicos em um hospital de Seattle.</p>
+                </div>
+
+                <div class="card-serie">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMH8pjxOo67zrPQ7gXPa8XR7DP7LIBw7gFEw&s" alt="Sintonia">
+                    <h3>Sintonia</h3>
+                    <p class="genero">Gênero: Drama</p>
+                    <p class="descrição">Criados juntos na quebrada de São Paulo, três amigos adolescentes correm atrás de seus sonhos rodeados por música, drogas e injustiça.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="secao">
+        <div class="container">
+            <h2>Sobre o catálogo</h2>
+            <p>
+                Descubra as melhores séries em um só lugar: Do passado ao futuro da televisão.
+                Nossa curadoria para 2026 traz o que há de mais relevante no mundo das séries, desde os grandes finais de produções aclamadas até as mais aguardadas estreias.
+            </p>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="secao secao-cinza">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Quer enviar sugestões de séries?</p>
+            <ul class="lista-contato">
+                <li><strong>Email:</strong> ks1438225@gmail.com</li>
+                <li><strong>Instagram:</strong> kauvitoria2030</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 - Kauane. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
